@@ -24,5 +24,5 @@ end
 
 def using_concat(array, second_array)
   merged_array = second_array.each {|i| array << i }
-  merged array
+  merged_array
 end
