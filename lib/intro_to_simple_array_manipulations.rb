@@ -23,5 +23,6 @@ def shift_with_args(array)
 end
 
 def using_concat(array, second_array)
-  second_array.each {|i| array << i }
+  merged_array = second_array.each {|i| array << i }
+  merged array
 end
