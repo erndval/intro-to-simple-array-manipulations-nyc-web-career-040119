@@ -10,6 +10,6 @@ def using_pop(array)
   array.pop
 end
 
-def 
+def using_pop_with_args(array, count s)
   array.pop(2)
 end
